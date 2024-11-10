@@ -1,0 +1,115 @@
+* {
+    font-family:'Calibri', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #266afc, #b0c7f5);
+}
+
+#main-container { 
+    width: 480px;
+    border-radius: 20px;
+    background-color: #4a7be6;
+    color: white;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+input, button {
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 280px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button {
+    width: 120px;
+    height: 36px;
+    border-radius: 18px;
+    font-size: 20px;
+    background-color: #3266d6;
+    color: white;
+}
+
+button:hover {
+    background-color: #6e91db;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+#weather-icon {
+    display: none;
+    margin: 0px auto;
+}
+
+#temperature {
+    font-size: 26px;
+}
+
+#condition {
+    font-size: 18px;
+}
+
+#hourly-forecast {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    white-space: auto;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    margin-right: 28px;
+    margin-bottom: 10px;
+}
+
+span img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+
+/*
+<div id="main-container">
+    <h1>Weather App</h1>
+    <input type="text" id="city" placeholder="Enter city: ">
+    <button>Search</button>
+    <img id ="weather-icon" src="favicon.ico" alt="Weather i=Icon" width="80px" height="80px">
+    <div id="temperature"></div>
+    <div id="condition"></div>
+    <div id="hourly-forecast"></div>
+</div>
+*/
