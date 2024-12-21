@@ -5,7 +5,9 @@ const condText = document.querySelector("#condition > h2");
 const image = document.querySelector("#weather-icon");
 const forecast = document.querySelector("#hourly-forecast");
 const weatherSpans = document.querySelectorAll("span");
-const apiKey = 'edeef2e990ed12072480cfe2965145a6'
+const apiKey = config.MY_KEY
+
+
 
 button.addEventListener("click", changeCity);
 document.addEventListener('keydown', (event) => {
